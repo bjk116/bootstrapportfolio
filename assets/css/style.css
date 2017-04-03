@@ -1,0 +1,66 @@
+/*Green backgroud, grey font*/
+.jumbotron {
+	background-color:#427549;
+	color:#BBBBBB;
+}
+
+/*White subtitle for jumbotron*/
+.jumbotron small{
+	color:#FFFFFF;
+}
+
+/*White text on gold bg for active link*/
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: #FFFFFF;
+    background-color: #D1CB61;
+}
+
+/*Brighter green for clickable links */
+.nav-tabs>li>a{
+	color:#67DEB9;
+}
+
+/*Change background on hover for possible links*/
+.nav-tabs>li>a:hover{
+	background-color:#64976B;
+}
+
+body{
+	background-image: url("../images/green_cup.png");
+}
+
+.row h1{
+	padding-top:5px 0px 5px 0px;
+	color:#67DEB9;
+	background-color:#427549;
+	border-radius: 10px;
+	border-bottom: 1px;
+	border-bottom-style:solid;
+	border-bottom-color:#FFFFFF;
+}
+
+.row p{
+	padding: 7px 7px 7px 7px;
+	background-color:#E2FFEA;
+	border-radius: 10px;
+	font-size:1.25em;
+	color:#000000;
+}
+
+a{
+	color:#B1AB41;
+}
+
+.footer {
+  width:100%;
+  border-top:15px;
+  border-top-style:solid;
+  border-top-color:#FFFFFF;
+  margin: 50px 0px 0px 0px; /* negative value of footer height */
+  height: 100px;
+  clear:both;
+  padding-top:25px;
+  color:#FFFFFF;
+  background-color:#333333;
+  text-align:center;
+}
