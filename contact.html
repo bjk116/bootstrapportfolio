@@ -7,24 +7,44 @@
 	<link rel='stylesheet' type='text/css' href='assets/css/reset.css'>
 </head>
 <body>
-	<div class='container-fluid'>
 	<!--Header-->
 		<div class = 'jumbotron jumbotron-fluid'>
 		   <h1 class='white-text'>Welcome to My Portfolio!<br><small>A Brian Karabinchak Shindig</small></h1>
 		   <br>
 		   <ul class = 'nav nav-tabs'>
-			   <li><a href='index.html'>Home</a></li>
+			   <li><a href = 'index.html'>Home</a></li>
 			   <li><a href = 'portfolio.html'>Portfolio</a></li>
 			   <li><a href = 'tutor.html'>Tutoring</a></li>
-			   <li class='active'><a href='#'>Contact Me</a></li>
+			   <li class = 'active'><a href = '#'>Contact Me</a></li>
 			</ul>
-		</div>
+		</div> <!--End of Jumobtron-->
 	<!--Content-->
+	<div class='container-fluid'>
 		<div class='row'>
-			<div class='col-lg-12'>
-				<h1 class='large-text'>Hello World!</h1>
+			<div class='col-md-3'>
+			</div>
+			<div class='col-md-6'>
+				<h1 class='h1 text-center'>Contact Me</h1>
+			</div>
+		</div>
+		<div class = 'row'>
+			<div class = 'col-md-3'>
+			</div>
+			<div class = 'col-md-6' id = 'contactform'>
+				<div class = 'form-group'>
+  					<label for='fullname'>Full Name:</label>
+					<input type='text' class='form-control' placeholder='Full Name' id='fullname'>
+  					<label for='emailaddress'>Email Address:</label>
+   					<input type='text' class='form-control' placeholder='YourEmail@Server.com' id='emailaddress'>
+  					<label for='message'>Message:</label>
+					<textarea class='form-control' rows='5' id='message' placeholder='Message...'></textarea>
+					<button type='button' class='btn btn-primary'>Send Message</button>
+				</div>
 			</div>
 		</div>
 	<!--Footer-->
+	<footer class="footer col-sm-12">
+		<h4 class='h4'>Ⓒ Copyright 2016 Brian Karabinchak</h4>
+	</footer>
 </body>
 </html>

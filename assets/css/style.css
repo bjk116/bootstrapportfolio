@@ -2,11 +2,16 @@
 .jumbotron {
 	background-color:#427549;
 	color:#BBBBBB;
+	padding-left:8.33%
 }
 
 /*White subtitle for jumbotron*/
 .jumbotron small{
 	color:#FFFFFF;
+}
+
+.nav{
+	margin-right:8.33%;
 }
 
 /*White text on gold bg for active link*/
@@ -30,10 +35,9 @@ body{
 }
 
 .row h1{
-	padding-top:5px 0px 5px 0px;
+	padding:5px 0px 0px 0px;
 	color:#67DEB9;
 	background-color:#427549;
-	border-radius: 10px;
 	border-bottom: 1px;
 	border-bottom-style:solid;
 	border-bottom-color:#FFFFFF;
@@ -42,7 +46,13 @@ body{
 .row p{
 	padding: 7px 7px 7px 7px;
 	background-color:#E2FFEA;
-	border-radius: 10px;
+	font-size:1.25em;
+	color:#000000;
+}
+
+#contactform{
+	padding: 7px 7px 7px 7px;
+	background-color:#E2FFEA;
 	font-size:1.25em;
 	color:#000000;
 }
@@ -63,4 +73,18 @@ a{
   color:#FFFFFF;
   background-color:#333333;
   text-align:center;
+}
+
+.input-group h3{
+	font-size:1.25em;
+	margin-bottom:4%;
+}
+
+.form-group label{
+	margin-top:2%;
+	margin-bottom:2%;
+}
+
+.form-group textarea{
+	margin-bottom:2%;
 }
