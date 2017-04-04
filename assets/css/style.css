@@ -67,7 +67,7 @@ a{
   border-top-style:solid;
   border-top-color:#FFFFFF;
   margin: 50px 0px 0px 0px; /* negative value of footer height */
-  height: 100px;
+  height: auto;
   clear:both;
   padding-top:25px;
   color:#FFFFFF;
@@ -87,4 +87,13 @@ a{
 
 .form-group textarea{
 	margin-bottom:2%;
+}
+
+.socialmediaimg{
+	height:48px;
+	width:48px;
+	align-content: middle;
+	display:inline-block;
+	margin-left:2%;
+	margin-right:2%;
 }
