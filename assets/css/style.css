@@ -97,3 +97,19 @@ a{
 	margin-left:2%;
 	margin-right:2%;
 }
+
+.bg{
+	background-color:#E2FFEA;
+}
+
+.topimgs{
+	margin:3% 9% 1% 9%
+}
+
+.midimgs{
+	margin:1% 9% 1% 9%;
+}
+
+.lastimg{
+	margin:1% 33% 3% 33%;
+}
