@@ -113,3 +113,39 @@ a{
 .lastimg{
 	margin:1% 33% 3% 33%;
 }
+
+.textonimg{
+	margin-top:3%;
+	margin-bottom:3%;
+	position:relative;
+}
+
+.textonimg .col{
+	position:absolute;
+	z-index:1;
+	top:65%;
+	left:0%;
+	width:100%;
+	padding-left:9%;
+	padding-right:9%;
+}
+
+.textonimg .lastcol{
+	position:absolute;
+	z-index:1;
+	top:65%;
+	left:0%;
+	width:100%;
+	padding-left:31%;
+	padding-right:31%;
+}
+
+.textonimg .col p{
+	background-color:#427549;
+	color:#FFFFFF;
+}
+
+.textonimg .lastcol p{
+	background-color:#427549;
+	color:#FFFFFF;
+}
